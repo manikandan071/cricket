@@ -1,0 +1,76 @@
+.won-ind{
+    position: relative;
+    background-image: url('https://images.indianexpress.com/2021/03/virat-kohli-AP-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 310px 0 80px 0;
+}
+.won-aus{
+    position: relative;
+    background-image: url('https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/11/ap21318587651683-1-1636906872.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 310px 0 80px 0;
+}
+.team-result{
+    display: flex;
+    width: 100%;
+}
+.team-result .team-total{
+    width: 50%;
+    padding: 50px 0;
+}
+.team-result .team-total:first-child{
+    text-align: end;
+    padding-right: 60px;
+}
+.team-result .team-total:last-child{
+    text-align: start;
+    padding-left: 60px;
+}
+.match-result span{
+    font-size: 30px;
+    color: #1c356c;
+    padding: 5px 60px 8px 60px;
+    border-radius: 60px;
+    border-top-left-radius: 60px;
+    margin-left: 24px;
+    background-color: #ffffffe8;
+    font-weight: 500;
+    box-shadow: #261d54 3px 9px 10px;
+}
+.result-show span{
+    font-size: 50px;
+    color: #1c356c;
+    padding: 5px 60px 8px 60px;
+    border-radius: 60px;
+    border-top-left-radius: 60px;
+    margin-left: 24px;
+    background-color: #ffffffe8;
+    font-weight: 500;
+    box-shadow: #261d54 3px 9px 10px;
+}
+.ind-scoreboard{
+    color: rgb(255, 255, 255);
+    padding-right: 40px;
+}
+.ind-scoreboard span{
+    font-size: 40px;
+}
+.ind-scoreboard p{
+    font-size: 30px;
+}
+.aus-scoreboard{
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+.aus-scoreboard span{
+    font-size: 40px;
+}
+.aus-scoreboard p{
+    font-size: 30px;
+}

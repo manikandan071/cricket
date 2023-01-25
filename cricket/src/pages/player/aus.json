@@ -1,0 +1,130 @@
+[
+    {
+        "playerId": 1,
+        "playerName":"D Warner",
+        "playerStrick": true,
+        "playerRun":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"batting",
+        "ballbased":0
+    },
+    {
+        "playerId": 2,
+        "playerName":"C Green",
+        "playerStrick": true,
+        "playerRun":0,
+        "playerSix":0,
+        "ballbased":0,
+        "playerFour":0,
+        "playerCat":"batting"
+    },
+    {
+        "playerId": 3,
+        "playerName":"M Marsh",
+        "playerStrick": false,
+        "playerRun":0,
+        "playerSix":0,
+        "ballbased":0,
+        "playerFour":0,
+        "playerCat":"batting"
+    },
+    {
+        "playerId": 4,
+        "playerName":"S Smith",
+        "playerStrick": false,
+        "playerRun":0,
+        "playerSix":0,
+        "ballbased":0,
+        "playerFour":0,
+        "playerCat":"batting"
+    },
+    {
+        "playerId": 5,
+        "playerName":"M Wade",
+        "playerStrick": false,
+        "playerRun":0,
+        "playerSix":0,
+        "ballbased":0,
+        "playerFour":0,
+        "playerCat":"batting"
+    },
+    {
+        "playerId": 6,
+        "playerName":"C Maxwell",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"all_rounder",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    },
+    {
+        "playerId": 7,
+        "playerName":"M Stoinis",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"all_rounder",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    },
+    {
+        "playerId": 8,
+        "playerName":"P Cummins",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"all_rounder",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    },
+    {
+        "playerId": 9,
+        "playerName":"K Richardson",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"bowler",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    },
+    {
+        "playerId": 10,
+        "playerName":"A Zampa",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"bowler",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    },
+    {
+        "playerId": 11,
+        "playerName":"J Hazlewood",
+        "playerStrick": false,
+        "playerRun":0,
+        "ballbased":0,
+        "playerSix":0,
+        "playerFour":0,
+        "playerCat":"bowler",
+        "overBowled":0,
+        "playerWickets":0,
+        "bowlercontribute":0
+    }
+]

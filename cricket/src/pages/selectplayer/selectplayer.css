@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    background-image: url('https://pickyourtrail.com/blog/wp-content/uploads/2020/09/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container-a{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    background-image: url('https://i.cdn.newsbytesapp.com/images/l62720221112111926.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-sec{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+}
+.card-sec-a{
+    width: 80%;
+    margin: 0 auto;
+    padding: 200px 0 200px 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(120, 121, 180, 0.541);
+    padding:20px 0 ;
+}
+.card-body{
+    margin: 20px;
+}
+.card-body .player{
+    font-size: 25px;
+    background-color: rgba(180, 180, 245, 0.555);
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check-box{
+    margin-left: 10px;
+}
+.select-btn{
+    justify-content: center;
+}
+.select-btn-a{
+    justify-content: center;
+    margin: 30px 0;
+}
+.score-board1{
+    width: 80%;
+    margin: 0 auto;
+}
+th{
+    font-size: 20px;
+    font-weight: 600;
+}
+.error-msg{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+.error-msg span{
+    visibility: hidden;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #d12117;
+    padding: 3px 20px 5px 20px;
+    color: #fff;
+    border-radius: 7px;
+}
+.second-hulf-btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.first-hulf-result{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.first-hulf-result span{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.css-1azl6jz-MuiTableCell-root{
+    font-size: 23px;
+}
+#select-nos{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}

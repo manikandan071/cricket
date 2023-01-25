@@ -1,0 +1,107 @@
+.players-sec{
+    position: relative;
+    background-image: url("https://mumbaimirror.indiatimes.com/photo/73381510.cms");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.playerlist{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+.ind-players{
+    display: flex;
+    align-items: center;
+    background-color: #ffffffe8;
+    color: #1c356c;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 200px; */
+    margin-right: 100px;
+    box-shadow: #300fd8 -10px 9px 20px;
+    padding: 0 100px;
+    outline: 2px solid #000;
+    font-weight: 600;
+    animation: scallingInd 1s linear;
+    transform: skew(45deg);
+}
+.ind-players h5{
+    margin: 0;
+    font-size: 24px;
+    padding: 5px;
+    transform: skew(-45deg);
+}
+.ind-players span{
+    transform: skew(-45deg);
+}
+.aus-players{
+    display: flex;
+    align-items: center;
+    background-color: #ffffffe8;
+    color: #1c356c;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 200px; */
+    margin-left: 100px;
+    transform: skew(315deg);
+    box-shadow: #b7c042 10px 10px 10px;
+    padding: 0 100px;
+    outline: 2px solid #000;
+    font-weight: 600;
+    animation: scallingAus 1s linear;
+}
+.aus-players h5{
+    margin: 0;
+    font-size: 24px;
+    padding: 5px;
+    transform: skew(-315deg);
+}
+.aus-players span{
+    transform: skew(-315deg);
+}
+.aus-players-logo{
+    animation: scallingAuslogo 1s linear;
+    margin-bottom: 50px;
+}
+.ind-players-logo{
+    animation: scallingIndlogo 1s linear;
+    margin-bottom: 50px;
+}
+.player-btn{
+    padding-bottom: 20px;
+}
+
+@keyframes scallingAus {
+    0% {
+        transform: translateX(30%)skew(0deg);
+    }
+    100% {
+      transform: translateX(0)skew(-45deg);
+    }
+}
+@keyframes scallingAuslogo {
+    0% {
+        transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+@keyframes scallingInd {
+    0% {
+        transform: translateX(-30%)skew(0deg);
+    }
+    100% {
+      transform: translateX(0)skew(45deg);
+    }
+}
+@keyframes scallingIndlogo {
+    0% {
+        transform: translateX(-30%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}

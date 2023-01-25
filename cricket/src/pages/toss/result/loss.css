@@ -1,0 +1,30 @@
+.toss-loss{
+    position: relative;
+    background-image: url('https://images.thequint.com/thequint%2F2020-01%2F71e2d6a9-44e8-4471-917a-aaa7005e4c58%2FVirat_Kohli_and_Aaron_Finch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.toss-loss-sec{
+    text-align: center;
+    padding: 700px 0 100px 0;
+}
+.toss-loss-sec-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toss-loss-sec-a > span{
+    font-size: 45px;
+    color: #1c356c;
+    padding: 5px 60px 8px 60px;
+    border-radius: 60px;
+    border-top-left-radius: 60px;
+    margin-left: 24px;
+    background-color: #ffffffe8;
+    font-weight: 500;
+    box-shadow: #261d54 3px 9px 10px;
+}
+.toss-loss-sec .loss-btn{
+    margin-top: 60px;
+}

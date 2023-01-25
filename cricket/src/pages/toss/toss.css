@@ -1,0 +1,444 @@
+@media (min-width:992px) {
+  
+  .toss{
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/1089926184/photo/india-and-australia-two-flags-together-realations-textile-cloth-fabric-texture.jpg?s=612x612&w=0&k=20&c=gig-ENMMf1jZVSeRe8VjAEQgom_F5T0BgHk9ypbfuAE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.teams-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams-sec span{
+    font-size: 70px;
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 600;
+    animation: lights 5s 750ms linear infinite;
+}
+.toss-sec{
+    text-align: center;
+    padding: 130px 0 130px 0;
+}
+.toss-sec h5{
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.select-toss p{
+    font-size: 25px;
+    color: #fff;
+}
+.select-toss{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.select-toss input{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.css-ahj2mt-MuiTypography-root{
+    color: #fff;
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+}
+.team-logo{
+    animation: rotation 8s infinite linear;
+}
+#toss_select{
+    visibility: hidden;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #d12117;
+    padding: 3px 20px 5px 20px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(45deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+      }
+  }
+
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    color: #fff;
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #fff;
+  }
+  .css-gqssyb{
+    margin-top: 10px;
+  }
+
+}
+@media (max-width:991.99px){
+  .toss{
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/1089926184/photo/india-and-australia-two-flags-together-realations-textile-cloth-fabric-texture.jpg?s=612x612&w=0&k=20&c=gig-ENMMf1jZVSeRe8VjAEQgom_F5T0BgHk9ypbfuAE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.teams-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams-sec span{
+    font-size: 70px;
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 600;
+    animation: lights 5s 750ms linear infinite;
+}
+.toss-sec{
+    text-align: center;
+    padding: 385px 0 385px 0;
+}
+.toss-sec h5{
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.select-toss p{
+    font-size: 25px;
+    color: #fff;
+}
+.select-toss{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.select-toss input{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.css-ahj2mt-MuiTypography-root{
+    color: #fff;
+    font-size: 20px !important;
+    letter-spacing: 2px !important;
+}
+.team-logo{
+    animation: rotation 8s infinite linear;
+}
+#toss_select{
+    visibility: hidden;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #d12117;
+    padding: 3px 20px 5px 20px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(45deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+      }
+  }
+
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    color: #fff;
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #fff;
+  }
+  .css-gqssyb{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width : 575.99px){
+  .toss{
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/1089926184/photo/india-and-australia-two-flags-together-realations-textile-cloth-fabric-texture.jpg?s=612x612&w=0&k=20&c=gig-ENMMf1jZVSeRe8VjAEQgom_F5T0BgHk9ypbfuAE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.teams-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams-sec span{
+    font-size: 30px;
+    padding: 0 15px;
+    color: #fff;
+    font-weight: 600;
+    animation: lights 5s 750ms linear infinite;
+}
+.toss-sec{
+    text-align: center;
+    padding: 170px 0 170px 0;
+}
+.toss-sec h5{
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.select-toss p{
+    font-size: 25px;
+    color: #fff;
+}
+.select-toss{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.select-toss input{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.css-ahj2mt-MuiTypography-root{
+    color: #fff;
+    font-size: 15px !important;
+    letter-spacing: 2px !important;
+}
+.team-logo{
+    width: 50px;
+    animation: rotation 8s infinite linear;
+}
+#toss_select{
+    visibility: hidden;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #d12117;
+    padding: 3px 20px 5px 20px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(45deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+      }
+  }
+
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    color: #fff;
+  }
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #fff;
+  }
+  .css-gqssyb{
+    margin-top: 10px;
+  }
+}
+  
